@@ -21,3 +21,7 @@ storage.setItem("key3", "nouvel Valeur");
 
 // part 5
 printTheme(result, storage.getItem("key1"), storage.getItem("key2"), storage.getItem("key3"));
+
+// bonus
+storage.setItem("key4", "1, 2, 3, 4, 5")
+// to use the array : split(",")
